@@ -18,7 +18,7 @@ var destructivelyAddElementToBeginningOfArray=function(array,newEl){
 };
 
 var addElementToEndOfArray=function(array,newEl){
-  return [array,...newEl];
+  return [...array,newEl];
 };
 
 var destructivelyAddElementToEndOfArray=function(array,newEl){
