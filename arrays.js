@@ -22,7 +22,8 @@ var addElementToEndOfArray=function(array,newEl){
 };
 
 var destructivelyAddElementToEndOfArray=function(array,newEl){
-  return array.push(newEl);
+  array.push(newEl);
+  return array
 };
 
 var accessElementInArray=function(array,ind){
